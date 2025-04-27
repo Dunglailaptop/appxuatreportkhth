@@ -1,0 +1,280 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|c:\\users\\ndung\\source\\repos\\appxuatdulieukhth\\appxuatdulieukhth\\models\\reportquanhuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|solutionrelative:appxuatdulieukhth\\models\\reportquanhuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|c:\\users\\ndung\\source\\repos\\appxuatdulieukhth\\appxuatdulieukhth\\controller\\reportquanhuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|solutionrelative:appxuatdulieukhth\\controller\\reportquanhuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|c:\\users\\ndung\\source\\repos\\appxuatdulieukhth\\appxuatdulieukhth\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|solutionrelative:appxuatdulieukhth\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|c:\\users\\ndung\\source\\repos\\appxuatdulieukhth\\appxuatdulieukhth\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|solutionrelative:appxuatdulieukhth\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|c:\\users\\ndung\\source\\repos\\appxuatdulieukhth\\appxuatdulieukhth\\helper\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|solutionrelative:appxuatdulieukhth\\helper\\constant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|c:\\users\\ndung\\source\\repos\\appxuatdulieukhth\\appxuatdulieukhth\\controller\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|solutionrelative:appxuatdulieukhth\\controller\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|c:\\users\\ndung\\source\\repos\\appxuatdulieukhth\\appxuatdulieukhth\\controller\\reporttinhthanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|solutionrelative:appxuatdulieukhth\\controller\\reporttinhthanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|c:\\users\\ndung\\source\\repos\\appxuatdulieukhth\\appxuatdulieukhth\\models\\reporttinhthanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|solutionrelative:appxuatdulieukhth\\models\\reporttinhthanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|c:\\users\\ndung\\source\\repos\\appxuatdulieukhth\\appxuatdulieukhth\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|solutionrelative:appxuatdulieukhth\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|c:\\users\\ndung\\source\\repos\\appxuatdulieukhth\\appxuatdulieukhth\\appxuatdulieukhth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|solutionrelative:appxuatdulieukhth\\appxuatdulieukhth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|c:\\users\\ndung\\source\\repos\\appxuatdulieukhth\\appxuatdulieukhth\\data\\connectiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|solutionrelative:appxuatdulieukhth\\data\\connectiondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|c:\\users\\ndung\\source\\repos\\appxuatdulieukhth\\appxuatdulieukhth\\data\\dbhis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|solutionrelative:appxuatdulieukhth\\data\\dbhis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ndung\\.nuget\\packages\\epplus\\8.0.2\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|c:\\users\\ndung\\source\\repos\\appxuatdulieukhth\\appxuatdulieukhth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|solutionrelative:appxuatdulieukhth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|c:\\users\\ndung\\source\\repos\\appxuatdulieukhth\\appxuatdulieukhth\\view\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D50698A8-6EFC-4A7E-933D-F7814134069D}|AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj|solutionrelative:appxuatdulieukhth\\view\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "reportQuanHuyen.cs",
+              "DocumentMoniker": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Controller\\reportQuanHuyen.cs",
+              "RelativeDocumentMoniker": "AppXuatdulieuKHTH\\Controller\\reportQuanHuyen.cs",
+              "ToolTip": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Controller\\reportQuanHuyen.cs",
+              "RelativeToolTip": "AppXuatdulieuKHTH\\Controller\\reportQuanHuyen.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T14:46:19.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "reportQuanHuyen.cs",
+              "DocumentMoniker": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Models\\reportQuanHuyen.cs",
+              "RelativeDocumentMoniker": "AppXuatdulieuKHTH\\Models\\reportQuanHuyen.cs",
+              "ToolTip": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Models\\reportQuanHuyen.cs",
+              "RelativeToolTip": "AppXuatdulieuKHTH\\Models\\reportQuanHuyen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T14:42:07.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "reportTinhThanh.cs",
+              "DocumentMoniker": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Controller\\reportTinhThanh.cs",
+              "RelativeDocumentMoniker": "AppXuatdulieuKHTH\\Controller\\reportTinhThanh.cs",
+              "ToolTip": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Controller\\reportTinhThanh.cs",
+              "RelativeToolTip": "AppXuatdulieuKHTH\\Controller\\reportTinhThanh.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAowIgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T13:53:10.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\View\\Form1.cs",
+              "RelativeDocumentMoniker": "AppXuatdulieuKHTH\\View\\Form1.cs",
+              "ToolTip": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\View\\Form1.cs [Design]",
+              "RelativeToolTip": "AppXuatdulieuKHTH\\View\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T12:46:30.493Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Controller\\PatientController.cs",
+              "RelativeDocumentMoniker": "AppXuatdulieuKHTH\\Controller\\PatientController.cs",
+              "ToolTip": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Controller\\PatientController.cs",
+              "RelativeToolTip": "AppXuatdulieuKHTH\\Controller\\PatientController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAmwH4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T02:55:55.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "constant.cs",
+              "DocumentMoniker": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Helper\\constant.cs",
+              "RelativeDocumentMoniker": "AppXuatdulieuKHTH\\Helper\\constant.cs",
+              "ToolTip": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Helper\\constant.cs",
+              "RelativeToolTip": "AppXuatdulieuKHTH\\Helper\\constant.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAmwDgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T03:03:16.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\View\\Form1.cs",
+              "RelativeDocumentMoniker": "AppXuatdulieuKHTH\\View\\Form1.cs",
+              "ToolTip": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\View\\Form1.cs",
+              "RelativeToolTip": "AppXuatdulieuKHTH\\View\\Form1.cs",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAgwAEBAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:06:58.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "reportTinhThanh.cs",
+              "DocumentMoniker": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Models\\reportTinhThanh.cs",
+              "RelativeDocumentMoniker": "AppXuatdulieuKHTH\\Models\\reportTinhThanh.cs",
+              "ToolTip": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Models\\reportTinhThanh.cs",
+              "RelativeToolTip": "AppXuatdulieuKHTH\\Models\\reportTinhThanh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T13:51:25.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DBHis.cs",
+              "DocumentMoniker": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Data\\DBHis.cs",
+              "RelativeDocumentMoniker": "AppXuatdulieuKHTH\\Data\\DBHis.cs",
+              "ToolTip": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Data\\DBHis.cs",
+              "RelativeToolTip": "AppXuatdulieuKHTH\\Data\\DBHis.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T02:52:42.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "AppXuatdulieuKHTH\\Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Models\\Patient.cs",
+              "RelativeToolTip": "AppXuatdulieuKHTH\\Models\\Patient.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA2wCMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T02:48:15.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppXuatDuLieuKHTH.csproj",
+              "DocumentMoniker": "C:\\Users\\ndung\\source\\repos\\AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj",
+              "RelativeDocumentMoniker": "AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj",
+              "ToolTip": "C:\\Users\\ndung\\source\\repos\\AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj",
+              "RelativeToolTip": "AppXuatDuLieuKHTH\\AppXuatDuLieuKHTH.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-27T02:47:06.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConnectionDB.cs",
+              "DocumentMoniker": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Data\\ConnectionDB.cs",
+              "RelativeDocumentMoniker": "AppXuatdulieuKHTH\\Data\\ConnectionDB.cs",
+              "ToolTip": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Data\\ConnectionDB.cs",
+              "RelativeToolTip": "AppXuatdulieuKHTH\\Data\\ConnectionDB.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwBQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T02:49:49.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\ndung\\.nuget\\packages\\epplus\\8.0.2\\readme.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\epplus\\8.0.2\\readme.txt",
+              "ToolTip": "C:\\Users\\ndung\\.nuget\\packages\\epplus\\8.0.2\\readme.txt",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\epplus\\8.0.2\\readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-27T04:21:33.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\View\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "AppXuatdulieuKHTH\\View\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\View\\Form1.Designer.cs",
+              "RelativeToolTip": "AppXuatdulieuKHTH\\View\\Form1.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAvwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T03:19:03.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Program.cs",
+              "RelativeDocumentMoniker": "AppXuatdulieuKHTH\\Program.cs",
+              "ToolTip": "C:\\Users\\ndung\\source\\repos\\AppXuatdulieuKHTH\\AppXuatdulieuKHTH\\Program.cs",
+              "RelativeToolTip": "AppXuatdulieuKHTH\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T03:19:31.299Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
