@@ -128,12 +128,12 @@ namespace AppXuatDuLieuKHTH.Controller
         }
 
 
-        public async Task<List<Patient>> getReportNhiem(string dateto, string dateform)
+        public async Task<List<Patient>> getReportNhiem(string dateto, string dateform, int type)
         {
             try
             {
                
-                    string query = constant.searchreport_nhiem(dateto, dateform);
+                    string query = constant.searchreport_nhiem(dateto, dateform,type);
                     var result = new DataTable();
                     int count = 0;
                     result = await _connectiondb.GetConnectionList(query);

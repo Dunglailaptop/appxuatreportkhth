@@ -1,4 +1,5 @@
 ﻿using AppXuatDuLieuKHTH.Controller;
+using AppXuatDuLieuKHTH.Models;
 using System.Data;
 using System.Windows.Forms;
 
@@ -6,12 +7,15 @@ namespace AppXuatDuLieuKHTH
 {
     public partial class Form1 : Form
     {
+        public int type = 0;
+
         private PatientController _patientController;
 
         private reportTinhThanh _reportTinhthanh;
 
         private reportQuanHuyen _reportQuanHuyen;
 
+        private rpTuoi _reportTuoi;
         public Form1()
         {
             InitializeComponent();
@@ -23,9 +27,37 @@ namespace AppXuatDuLieuKHTH
             check_date.Checked = true;
             datagv_report_tinhthanh.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             datagv_rp_quanhuyen.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            data_grv_report_tuoi.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            _reportTuoi = new rpTuoi();
             _reportQuanHuyen = new reportQuanHuyen();
             _patientController = new PatientController();
             _reportTinhthanh = new reportTinhThanh();
+        }
+        // load data report báo cáo tuổi
+        private async void load_data_report_tuoi()
+        {
+            try
+            {
+                DateTime tuNgay = date_rptungay_tuoi.Value.Date; // Chỉ lấy phần ngày (bỏ giờ, phút, giây)
+                DateTime toiNgay = date_toingay_tuoi.Value.Date;
+
+                if (tuNgay > toiNgay)
+                {
+                    MessageBox.Show("Tu ngay phai nho hon toi ngay tiep theo!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return; // Dừng xử lý nếu điều kiện không thỏa mãn
+                }
+                string gettungay = date_rptungay_tuoi.Value.ToString("dd/MM/yyyy");
+
+                string gettoingay = date_toingay_tuoi.Value.ToString("dd/MM/yyyy");
+                var data = await _reportTuoi.getReporttuoi(gettungay, gettoingay);
+                data_grv_report_tuoi.DataSource = data;
+                total_rptuoi.Text = data.Count.ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Can not connection to server");
+            }
+
         }
         //load data report báo cáo quận huyện
         private async void load_data_report_quanhuyen()
@@ -85,6 +117,7 @@ namespace AppXuatDuLieuKHTH
 
         private async void load_data_report_nhiemthongtu54()
         {
+            Console.WriteLine(type);
             try
             {
                 DateTime tuNgay = date_pic_start_report_nhiem.Value.Date; // Chỉ lấy phần ngày (bỏ giờ, phút, giây)
@@ -98,7 +131,7 @@ namespace AppXuatDuLieuKHTH
                 string gettungay = date_pic_start_report_nhiem.Value.ToString("dd/MM/yyyy");
 
                 string gettoingay = date_pic_end__report_nhiem.Value.ToString("dd/MM/yyyy");
-                var data = await _patientController.getReportNhiem(gettungay, gettoingay);
+                var data = await _patientController.getReportNhiem(gettungay, gettoingay, type);
                 data_table_report_nhiem.DataSource = data;
                 lb_total_data.Text = data.Count.ToString();
             }
@@ -180,10 +213,12 @@ namespace AppXuatDuLieuKHTH
         {
             if (check_date.Checked)
             {
+                type = 1;
                 check_month.Checked = false;
             }
             else
             {
+                type = 2;
                 check_month.Checked = true;
             }
         }
@@ -192,10 +227,12 @@ namespace AppXuatDuLieuKHTH
         {
             if (check_month.Checked)
             {
+                type = 2;
                 check_date.Checked = false;
             }
             else
             {
+                type = 1;
                 check_date.Checked = true;
             }
         }
@@ -232,6 +269,9 @@ namespace AppXuatDuLieuKHTH
                 case 3:
                     load_data_report_quanhuyen();
                     break;
+                case 4:
+                    load_data_report_tuoi();
+                    break;
                 default:
                     MessageBox.Show("Tab không được hỗ trợ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     break;
@@ -256,6 +296,21 @@ namespace AppXuatDuLieuKHTH
         private void btn_rpquanhuyen_Click(object sender, EventArgs e)
         {
             load_data_report_quanhuyen();
+        }
+
+        private void btn_search_rptuoi_Click(object sender, EventArgs e)
+        {
+            load_data_report_tuoi();
+        }
+
+        private void btn_excel_rpquanhuyen_Click(object sender, EventArgs e)
+        {
+            _reportQuanHuyen.ExportFileThongKe(ConvertDataGridViewToDataTable(datagv_rp_quanhuyen), "BAOCAOQUANHUYEN");
+        }
+
+        private void btn_export_excel_rptuoi_Click(object sender, EventArgs e)
+        {
+            _reportTuoi.ExportFileThongKe(ConvertDataGridViewToDataTable(data_grv_report_tuoi), "BAOCAOTUOI");
         }
     }
 }

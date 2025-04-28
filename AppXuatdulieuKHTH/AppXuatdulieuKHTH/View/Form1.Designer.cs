@@ -66,6 +66,16 @@
             date_tungay_rpquanhuyen = new DateTimePicker();
             datagv_rp_quanhuyen = new DataGridView();
             tabPage5 = new TabPage();
+            splitContainer3 = new SplitContainer();
+            total_rptuoi = new Label();
+            label11 = new Label();
+            btn_search_rptuoi = new Button();
+            btn_export_excel_rptuoi = new Button();
+            label12 = new Label();
+            date_toingay_tuoi = new DateTimePicker();
+            label13 = new Label();
+            date_rptungay_tuoi = new DateTimePicker();
+            data_grv_report_tuoi = new DataGridView();
             tabPage6 = new TabPage();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
@@ -86,6 +96,12 @@
             splitContainer2.Panel2.SuspendLayout();
             splitContainer2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)datagv_rp_quanhuyen).BeginInit();
+            tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer3).BeginInit();
+            splitContainer3.Panel1.SuspendLayout();
+            splitContainer3.Panel2.SuspendLayout();
+            splitContainer3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)data_grv_report_tuoi).BeginInit();
             SuspendLayout();
             // 
             // tabControl1
@@ -476,6 +492,7 @@
             btn_excel_rpquanhuyen.TabIndex = 27;
             btn_excel_rpquanhuyen.Text = "Xuất Excel";
             btn_excel_rpquanhuyen.UseVisualStyleBackColor = false;
+            btn_excel_rpquanhuyen.Click += btn_excel_rpquanhuyen_Click;
             // 
             // label9
             // 
@@ -524,6 +541,7 @@
             // 
             // tabPage5
             // 
+            tabPage5.Controls.Add(splitContainer3);
             tabPage5.Font = new Font("Times New Roman", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             tabPage5.Location = new Point(4, 24);
             tabPage5.Name = "tabPage5";
@@ -532,6 +550,120 @@
             tabPage5.TabIndex = 4;
             tabPage5.Text = "Báo phân loại tuổi";
             tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // splitContainer3
+            // 
+            splitContainer3.Dock = DockStyle.Fill;
+            splitContainer3.Location = new Point(3, 3);
+            splitContainer3.Name = "splitContainer3";
+            splitContainer3.Orientation = Orientation.Horizontal;
+            // 
+            // splitContainer3.Panel1
+            // 
+            splitContainer3.Panel1.Controls.Add(total_rptuoi);
+            splitContainer3.Panel1.Controls.Add(label11);
+            splitContainer3.Panel1.Controls.Add(btn_search_rptuoi);
+            splitContainer3.Panel1.Controls.Add(btn_export_excel_rptuoi);
+            splitContainer3.Panel1.Controls.Add(label12);
+            splitContainer3.Panel1.Controls.Add(date_toingay_tuoi);
+            splitContainer3.Panel1.Controls.Add(label13);
+            splitContainer3.Panel1.Controls.Add(date_rptungay_tuoi);
+            // 
+            // splitContainer3.Panel2
+            // 
+            splitContainer3.Panel2.Controls.Add(data_grv_report_tuoi);
+            splitContainer3.Size = new Size(1018, 655);
+            splitContainer3.SplitterDistance = 93;
+            splitContainer3.TabIndex = 0;
+            // 
+            // total_rptuoi
+            // 
+            total_rptuoi.AutoSize = true;
+            total_rptuoi.ForeColor = Color.Red;
+            total_rptuoi.Location = new Point(345, 70);
+            total_rptuoi.Name = "total_rptuoi";
+            total_rptuoi.Size = new Size(13, 15);
+            total_rptuoi.TabIndex = 37;
+            total_rptuoi.Text = "0";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(256, 72);
+            label11.Name = "label11";
+            label11.Size = new Size(83, 15);
+            label11.TabIndex = 31;
+            label11.Text = "Tổng số hồ sơ:";
+            // 
+            // btn_search_rptuoi
+            // 
+            btn_search_rptuoi.BackColor = Color.DodgerBlue;
+            btn_search_rptuoi.ForeColor = Color.White;
+            btn_search_rptuoi.Location = new Point(256, 23);
+            btn_search_rptuoi.Margin = new Padding(3, 2, 3, 2);
+            btn_search_rptuoi.Name = "btn_search_rptuoi";
+            btn_search_rptuoi.Size = new Size(144, 47);
+            btn_search_rptuoi.TabIndex = 36;
+            btn_search_rptuoi.Text = "Tìm";
+            btn_search_rptuoi.UseVisualStyleBackColor = false;
+            btn_search_rptuoi.Click += btn_search_rptuoi_Click;
+            // 
+            // btn_export_excel_rptuoi
+            // 
+            btn_export_excel_rptuoi.BackColor = Color.ForestGreen;
+            btn_export_excel_rptuoi.ForeColor = Color.White;
+            btn_export_excel_rptuoi.Location = new Point(405, 23);
+            btn_export_excel_rptuoi.Name = "btn_export_excel_rptuoi";
+            btn_export_excel_rptuoi.Size = new Size(152, 47);
+            btn_export_excel_rptuoi.TabIndex = 35;
+            btn_export_excel_rptuoi.Text = "Xuất Excel";
+            btn_export_excel_rptuoi.UseVisualStyleBackColor = false;
+            btn_export_excel_rptuoi.Click += btn_export_excel_rptuoi_Click;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Location = new Point(6, 49);
+            label12.Name = "label12";
+            label12.Size = new Size(58, 15);
+            label12.TabIndex = 34;
+            label12.Text = "Tới ngày:";
+            // 
+            // date_toingay_tuoi
+            // 
+            date_toingay_tuoi.CustomFormat = "dd/MM/yyyy";
+            date_toingay_tuoi.Format = DateTimePickerFormat.Custom;
+            date_toingay_tuoi.Location = new Point(6, 64);
+            date_toingay_tuoi.Name = "date_toingay_tuoi";
+            date_toingay_tuoi.Size = new Size(200, 21);
+            date_toingay_tuoi.TabIndex = 33;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Location = new Point(6, 7);
+            label13.Name = "label13";
+            label13.Size = new Size(54, 15);
+            label13.TabIndex = 32;
+            label13.Text = "Từ ngày:";
+            // 
+            // date_rptungay_tuoi
+            // 
+            date_rptungay_tuoi.CustomFormat = "dd/MM/yyyy";
+            date_rptungay_tuoi.Format = DateTimePickerFormat.Custom;
+            date_rptungay_tuoi.Location = new Point(6, 23);
+            date_rptungay_tuoi.Name = "date_rptungay_tuoi";
+            date_rptungay_tuoi.Size = new Size(200, 21);
+            date_rptungay_tuoi.TabIndex = 30;
+            // 
+            // data_grv_report_tuoi
+            // 
+            data_grv_report_tuoi.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            data_grv_report_tuoi.Dock = DockStyle.Fill;
+            data_grv_report_tuoi.Location = new Point(0, 0);
+            data_grv_report_tuoi.Name = "data_grv_report_tuoi";
+            data_grv_report_tuoi.Size = new Size(1018, 558);
+            data_grv_report_tuoi.TabIndex = 0;
             // 
             // tabPage6
             // 
@@ -576,6 +708,13 @@
             ((System.ComponentModel.ISupportInitialize)splitContainer2).EndInit();
             splitContainer2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)datagv_rp_quanhuyen).EndInit();
+            tabPage5.ResumeLayout(false);
+            splitContainer3.Panel1.ResumeLayout(false);
+            splitContainer3.Panel1.PerformLayout();
+            splitContainer3.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer3).EndInit();
+            splitContainer3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)data_grv_report_tuoi).EndInit();
             ResumeLayout(false);
         }
 
@@ -620,5 +759,15 @@
         private Label label10;
         private DateTimePicker date_tungay_rpquanhuyen;
         private DataGridView datagv_rp_quanhuyen;
+        private SplitContainer splitContainer3;
+        private Label total_rptuoi;
+        private Label label11;
+        private Button btn_search_rptuoi;
+        private Button btn_export_excel_rptuoi;
+        private Label label12;
+        private DateTimePicker date_toingay_tuoi;
+        private Label label13;
+        private DateTimePicker date_rptungay_tuoi;
+        private DataGridView data_grv_report_tuoi;
     }
 }
